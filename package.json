@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "5.1.0",
+    "morgan": "1.10.0",
+    "socket.io": "4.8.1"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./server/index.js",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting specified'",
+    "format": "echo 'No formatting specified'",
+    "start": "node server.js"
+  }
+}

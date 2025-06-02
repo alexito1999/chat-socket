@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto WhatsApp</title>
+    <!-- Estilos del hmtl -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Scripts -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Proyecto WhatsApp alex jonahtan</h1>
+    </header>
+    <main>
+      <section id="chatSection">
+        <article class="chatContainer">
+          <div class="messages">Bienvenido a tu proyecto WhatsApp.</div>
+          <div class="users"></div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <form id="messageForm">
+        <input
+          type="text"
+          id="messageInput"
+          placeholder="Escribe tu mensaje aquí..."
+        />
+        <button type="submit" id="sendButton">Enviar</button>
+      </form>
+    </footer>
+  </body>
+</html>
